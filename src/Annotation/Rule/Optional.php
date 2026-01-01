@@ -16,7 +16,7 @@ final class Optional implements ValidationRuleInterface
 
     public function validate(mixed $value): ?Violation
     {
-        if ($value === null) {
+        if (is_null($value) === true) {
             return null;
         }
 

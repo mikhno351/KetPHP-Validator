@@ -1,0 +1,36 @@
+{
+  "name": "ket-php/validator",
+  "description": "Simple PHP validator",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "KetPHP\\Validator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexander Mikhno",
+      "email": "mikhno351@yandex.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "doctrine/collections": "^2.4",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5",
+    "symfony/var-dumper": "^6.4"
+  },
+  "suggest": {
+    "ext-mbstring": "Recommended for multibyte string safety"
+  },
+  "prefer-stable": true,
+  "homepage": "https://github.com/mikhno351/KetPHP-Validator",
+  "support": {
+    "issues": "https://github.com/mikhno351/KetPHP-Validator/issues",
+    "source": "https://github.com/mikhno351/KetPHP-Validator"
+  }
+}

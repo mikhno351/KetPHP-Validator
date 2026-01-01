@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace KetPHP\Validator\Annotation\Rule\Attribute;
 
 use Attribute;

@@ -1,6 +1,14 @@
 {
   "name": "ket-php/validator",
   "description": "Simple PHP validator",
+  "keywords": [
+    "php",
+    "validator",
+    "validate",
+    "rule",
+    "ketphp",
+    "ket-php"
+  ],
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -17,12 +25,10 @@
   ],
   "require": {
     "php": "^8.1",
-    "doctrine/collections": "^2.4",
     "ext-mbstring": "*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^10.5",
-    "symfony/var-dumper": "^6.4"
+    "phpunit/phpunit": "^10.5"
   },
   "suggest": {
     "ext-mbstring": "Recommended for multibyte string safety"
